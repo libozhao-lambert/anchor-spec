@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Q&A (v0) — Discussions
+    url: https://github.com/libozhao-lambert/anchor-spec/discussions/categories/q-a
+    about: Clarifications and questions about ANCHOR v0 (Draft Frozen).
+  - name: v1+ Explorations — Discussions
+    url: https://github.com/libozhao-lambert/anchor-spec/discussions
+    about: Non-committal exploration of future directions (not a roadmap).
