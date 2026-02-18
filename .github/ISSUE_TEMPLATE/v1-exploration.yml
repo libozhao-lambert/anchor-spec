@@ -1,0 +1,26 @@
+name: v1+ Exploration (Non-committal)
+description: Propose a future direction for v1+ (not a commitment)
+title: "[exploration] "
+labels: ["exploration"]
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal (high level)
+      description: Describe the idea without implying guarantees or outcomes.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks / Misuse potential
+      description: How could this be misinterpreted as routing/quality/reputation?
+    validations:
+      required: false
