@@ -1,0 +1,35 @@
+name: Clarification / Errata
+description: Ask a clarification question or report a typo/erratum in ANCHOR v0 docs
+title: "[v0] "
+labels: ["v0", "clarification"]
+body:
+  - type: input
+    id: doc
+    attributes:
+      label: Document
+      description: Which document? (Definition / Spec / Whitepaper / Examples / Docs)
+      placeholder: Spec
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section / Anchor
+      description: Link to the exact section (URL + heading) if possible
+      placeholder: https://anchornetwork.ai/spec#signal-schema
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Issue / Question
+      description: What is unclear or incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed wording (optional)
+      description: If you have a concrete wording fix, paste it here.
+    validations:
+      required: false
