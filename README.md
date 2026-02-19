@@ -37,4 +37,4 @@ ANCHOR is not:
 - a routing instruction
 - an identity or reputation system
 
-© ANCHOR NETWORK PTY LTD
+© ANCHOR
